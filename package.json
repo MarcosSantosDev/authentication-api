@@ -4,18 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon --exec ts-node src/index.ts"
+    "dev": "npx nodemon --exec ts-node --files src/index.ts",
+    "typeorm": "npx ts-node ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
   "author": "Marcos Santos <marcosadriano034@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.12",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13"
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/node": "^16.4.1",
+    "bcryptjs": "^2.4.3",
+    "nodemon": "^2.0.12",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.34"
   }
 }
