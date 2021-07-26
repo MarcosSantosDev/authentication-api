@@ -2,9 +2,9 @@
     "type": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "",
-    "password": "",
-    "database": "",
+    "username": "postgres",
+    "password": "123456789",
+    "database": "tsauth",
     "entities": [
        "src/app/models/*.ts"
     ],
